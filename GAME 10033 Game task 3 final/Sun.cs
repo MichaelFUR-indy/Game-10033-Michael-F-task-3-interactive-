@@ -25,7 +25,7 @@ namespace MohawkGame2D
             //gets mouse postion for sun and moon
             Draw.Circle(200, y, 50);
         }
-
-
+        
+        //comment//
     }
 }
