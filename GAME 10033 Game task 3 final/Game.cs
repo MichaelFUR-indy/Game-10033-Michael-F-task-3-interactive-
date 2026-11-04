@@ -19,7 +19,7 @@ namespace MohawkGame2D
         public void Setup()
         {
             //tiltle and size of game
-            Window.SetTitle("sunset interactive");
+            Window.SetTitle("sun task 3");
             Window.SetSize(400, 400);
         }
 
