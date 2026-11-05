@@ -20,7 +20,7 @@ namespace MohawkGame2D
         {
             //tiltle and size of game
             Window.SetTitle("sun task 3");
-            Window.SetSize(400, 400);
+            Window.SetSize(500, 500);
         }
 
         /// <summary>
@@ -31,9 +31,9 @@ namespace MohawkGame2D
             //background color (sky)
             Window.ClearBackground(new Color(0, 0, 255 - 255 * Input.GetMouseY() / 400));
 
-            //reverses the background for moon when space bar is down
-            if (Input.IsKeyboardKeyDown(KeyboardKey.Space))
-                Window.ClearBackground(new Color(0, 0, 255 * Input.GetMouseY() / 400));
+          
+            
+               
 
            sun.Update();
 
@@ -49,7 +49,7 @@ namespace MohawkGame2D
             Draw.FillColor = Color.Green;
             Draw.LineSize = 4;
             Draw.LineColor = Color.Green;
-            Draw.Circle(new Vector2(200, 650), 400);
+            Draw.Circle(new Vector2(250, 700), 400);
 
 
         }

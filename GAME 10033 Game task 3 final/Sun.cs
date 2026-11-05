@@ -8,6 +8,7 @@ namespace MohawkGame2D
     {
         float y;
         float speed = 50;
+
         public void Setup()
         { 
             
@@ -16,14 +17,21 @@ namespace MohawkGame2D
         public void Update()
         {
 
-            //sun that follows the mouse 
+            //sun// 
             y += Time.DeltaTime * speed;
             Draw.FillColor = Color.Yellow;
             Draw.LineSize = 4;
             Draw.LineColor = Color.Yellow;
 
-            //gets mouse postion for sun and moon
-            Draw.Circle(200, y, 50);
+            //start postion for sun and moon//
+            Draw.Circle(250, y, 50);
+
+            float sunY = 400 - Input.GetMouseY();
+
+           
+
+
+
         }
         
         //comment//
